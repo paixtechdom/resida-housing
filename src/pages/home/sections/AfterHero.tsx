@@ -39,7 +39,7 @@ export const AfterHero : React.FC =  () => {
                     <h2 className="text-4xl font-bold text-center">
                         Featured Properties
                     </h2>
-                    <div className="text-center text-lg w-11/12 text-black3">
+                    <div className="text-center text-lg md:w-11/12 text-black3">
                         Explore our curated selection of premier properties, meticulously chosen to suit every lifestylpe and budget. From luxurious penthouses to cozy family homes, our featured listings showcase the best of Lagos living.
                     </div>
 
@@ -74,15 +74,16 @@ export const AfterHero : React.FC =  () => {
 
 
             </section>
+
             <section className="w-full center bg-primary py-[8vh]">
-                <div className="w-11/12 lg:w-10/12 flex flex-col rounded-2xl p-12 text-white">
+                <div className="w-11/12 lg:w-10/12 flex flex-col rounded-2xl p-6 lg:p-12 text-white gap-4 lg:gap-0">
                     <div className="flex flex-col gap-2">
 
                         <h2 className="font-bold text-2xl tracking-wide">Resida nullifies the hassles of agents </h2>
                         <p className="">Save properties, create alerts and keep track of the enquiries you send to agents.</p>
                     </div>
 
-                    <div className="flex justify-end w-full lg:pr-8">
+                    <div className="flex lg:justify-end w-full lg:pr-8">
 
                     <Button 
                         className="text-primary bg-secondary flex items-center h-fit py-3 font-bold w-fit px-9"

@@ -13,7 +13,7 @@ export const Download = () => {
                     <p className="font-semibold leading-relaxed">
                         With intuitive search features and a curated selection of properties tailoerd to your proferences, finding your dream home has never been easier. Join thousends of satisfied users who have unlocked the key to their ideal living space with just a tap
                     </p>
-                    <div className="flex items-center gap-9">
+                    <div className="flex items-center gap-5 md:gap-9">
                         <AppDownloadButton icon={
                             <BsApple className="text-2xl"/>
                         }
