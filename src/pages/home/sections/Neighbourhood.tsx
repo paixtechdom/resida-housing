@@ -21,7 +21,7 @@ const propertiesImage = [
 
 export const Neighbourhood = () => {
     return(
-        <>
+        <>  
             <section className="w-full center">
                 <div className="flex items-center w-11/12 lg:w-10/12 justify-between flex-col lg:flex-row gap-[50px]">
 
@@ -49,7 +49,7 @@ export const Neighbourhood = () => {
             </section>
 
 
-            <section className="w-full center py-[20vh] overflow-hidden relative flex-col lg:flex-row gap-[50px]">
+            <section className="w-full center py-[20vh] overflow-hidden relative flex-col lg:flex-row gap-[50px]">git commit -m "adjusted alert width for mobile"
                 <img src={blur} alt="" className="absolute z-[-1] bottom-0 rotate-180 scale-110"/>   
                 
                     <div className="w-11/12 lg:w-6/12 flex items-center justify-end">

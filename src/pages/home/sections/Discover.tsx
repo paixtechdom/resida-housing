@@ -8,6 +8,8 @@ import { locations } from "../../../assets/Interfaces"
 import { ImageExtras } from "../../../assets/components/ImageExtras"
 import { PiCheck } from "react-icons/pi"
 import blur from "../../../assets/images/blur.png"
+import { Button } from "../../../assets/components/Button"
+import { BsArrowRight } from "react-icons/bs"
 
 
 const locationsList = [
@@ -40,6 +42,16 @@ const locationsList = [
 export const Discover = () => {
     return(
         <>
+            <section className="w-full center flex-col text-center">
+                <h2 className="text-3xl font-bold">
+                    Discover a place you'll love to live
+                </h2>
+                <Button className="rounded-bl-xl"
+                    text="Download App"
+                    icon={<BsArrowRight className="ml-3 "/>}
+                />
+            </section>
+
             <section className="center w-full text-primary py-[20vh]">
                 <div className="w-11/12 lg:w-10/12 flex-col flex gap-5 text-center">
                     <h2 className="text-3xl font-semibold">

@@ -32,3 +32,9 @@ export interface AppDownloadButtonInterface {
     topText: string,
     bottomText: string
 }
+
+
+export interface FooterLinksInterface {
+    header: string,
+    links: string[]
+}
