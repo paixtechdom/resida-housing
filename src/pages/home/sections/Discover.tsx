@@ -42,11 +42,11 @@ const locationsList = [
 export const Discover = () => {
     return(
         <>
-            <section className="w-full center flex-col text-center">
-                <h2 className="text-3xl font-bold">
+            <section className="w-full center flex-col bg-discover bg-center min-h-[50vh] bg-cover text-center gap-4">
+                <h2 className="text-5xl font-bold text-white w-9/12 lg:w-5/12">
                     Discover a place you'll love to live
                 </h2>
-                <Button className="rounded-bl-xl"
+                <Button className="rounded-bl-xl bg-secondary w-fit flex items-center py-3"
                     text="Download App"
                     icon={<BsArrowRight className="ml-3 "/>}
                 />

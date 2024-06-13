@@ -10,7 +10,7 @@ export const Download = () => {
             <div className="w-11/12 lg:w-10/12 center flex-col lg:flex-row gap-[50px]">
                 <div className="flex flex-col gap-6">
                     <h2 className="text-5xl font-bold text-primary xl:w-5/12">Download our App</h2>
-                    <p className="font-semibold leading-relaxed">
+                    <p className="leading-relaxed">
                         With intuitive search features and a curated selection of properties tailoerd to your proferences, finding your dream home has never been easier. Join thousends of satisfied users who have unlocked the key to their ideal living space with just a tap
                     </p>
                     <div className="flex items-center gap-5 lg:flex-col xl:flex-row lg:gap-9">

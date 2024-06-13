@@ -7,7 +7,7 @@ export const Hero = () => {
                 <div className="w-full flex flex-col justify-center items-center text-primary gap-6 lg:gap-8 text-center">
                 
 
-                    <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl md:w-11/12 lg:w-8/12">
+                    <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl md:w-11/12 lg:w-8/12 hero-text">
                         Finding the perfect home has never been this easy
                     </h1>
                     <p className="md:w-11/12 lg:w-8/12">

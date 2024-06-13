@@ -47,7 +47,7 @@ export const ContactInfo = [
 ]
 
 
-export const Footer = () => {
+const Footer = () => {
     return(
         <footer className="w-full center bg-primary pt-[10vh] pb-[5vh] lg:py-[15vh]">
             <div className="w-11/12 lg:w-10/12 flex flex-col gap-6 text-gray-200">
@@ -108,3 +108,5 @@ export const Footer = () => {
         </footer>
     )
 }
+
+export default Footer

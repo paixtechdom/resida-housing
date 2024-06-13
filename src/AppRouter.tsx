@@ -4,9 +4,9 @@ import { lazy, Suspense } from 'react';
 import { delayLoad } from "./assets/Functions"
 import { HelmetProvider  } from 'react-helmet-async';
 import { PageNotFound } from './pages/PageNotFound';
-import { Navbar } from './assets/components/Navbar';
-import { Footer } from './assets/components/Footer';
 
+const Navbar = lazy(() => delayLoad(import('./assets/components/Navbar')))
+const Footer = lazy(() => delayLoad(import('./assets/components/Footer')))
 const HomePage = lazy(() => delayLoad(import("./pages/home/page")))
 const ContactPage = lazy(() => delayLoad(import("./pages/contact/page")))
 import logo from "./assets/images/Logo green.png"

@@ -58,10 +58,11 @@ export const NotjustanApp:React.FC = () => {
 
             <section className="center w-full my-[10vh]">
               <div className="flex flex-col lg:flex-row w-11/12 lg:w-10/12 gap-8 lg:gap-[25px]">
-                <div className="flex flex-col lg:flex-row justify-between lg:justify-start lg:items-stretch gap-3 w-full lg:h-[18vh]">
-                    <img src={experience1} alt="" className="h-full" />
-                    <img src={experience2} alt="" className="h -full"/>
-                    <img src={experience3} alt="" className="h -full" />
+                <div className="flex flex-col lg:flex-row justify-between lg:justify-start lg:items-stretch gap-3 w-full lg:h-[18vh] relative">
+                    <img src="" alt="" className="absolute"/>
+                    <img src={experience1} alt="Eperience Image 1" className="h-full" />
+                    <img src={experience2} alt="Eperience Image 2" className="h -full"/>
+                    <img src={experience3} alt="Eperience Image 3" className="h -full" />
                 </div>
 
 
