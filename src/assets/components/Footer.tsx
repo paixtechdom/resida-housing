@@ -89,7 +89,7 @@ export const Footer = () => {
                 <div className="flex flex-wrap gap-4 items-center">
                     {
                         ContactInfo.map((info: { icon : JSX.Element, contact: string}, i) => (
-                            <div className="flex items-center gap-2">
+                            <div key={i} className="flex items-center gap-2">
                                 {info.icon}
 
                                 <a href="">{info.contact}</a>
