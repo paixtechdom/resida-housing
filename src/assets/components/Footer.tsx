@@ -49,9 +49,10 @@ export const ContactInfo = [
 
 export const Footer = () => {
     return(
-        <footer className="w-full center bg-primary py-[15vh]">
+        <footer className="w-full center bg-primary pt-[15vh] pb-[5vh] lg:py-[15vh]">
             <div className="w-11/12 lg:w-10/12 flex flex-col gap-6 text-gray-200">
-                <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-9">
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-y-9 md:gap-9">
+
                     <div className="flex flex-col gap-4 col-span-2">
                         <h2 className="text-3xl text-gray-100">Resida</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam.</p>
@@ -69,7 +70,7 @@ export const Footer = () => {
 
                     {
                         FooterLinks.map((link : FooterLinksInterface, i) => (
-                            <div key={i} className="flex flex-col gap-4">
+                            <div key={i} className="flex flex-col gap-4 w-full">
                                 <h3 className="text-gray-100 font-semibold text-lg">{link.header}</h3>
 
                                 <div className="flex flex-col gap-4 text-sm text-gray-200">
@@ -86,7 +87,7 @@ export const Footer = () => {
                     }
                 </div>
 
-                <div className="flex flex-wrap gap-4 items-center my-3 lg:my-0">
+                <div className="flex flex-col flex-wrap md:flex-row gap-3 lg:items-center my-3 lg:my-0">
                     {
                         ContactInfo.map((info: { icon : JSX.Element, contact: string}, i) => (
                             <div key={i} className="flex items-center gap-2">
@@ -98,7 +99,7 @@ export const Footer = () => {
                     }
                 </div>
 
-                <div className="justify-between items-center flex flex-col lg:flex-row">
+                <div className="justify-between items-center flex flex-col lg:flex-row gap-3">
                     <p className="w-full lg:w-fit">Copyright © 2022 BRIX Templates</p>
 
                     <p className="w-full lg:w-fit">All Rights Reserved | <span className="underline">Terms and Conditions</span> | <span className="underline">Privacy Policy</span> </p>
