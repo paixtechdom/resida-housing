@@ -56,7 +56,7 @@ const ContactPage = () => {
                 </div>
 
                 <div className="w-full flex flex-col lg:flex-row gap-[50px] lg:gap-[25px] xl:gap-[50px] p-2 rounded-xl bg-white min-h-[80vh] shadow-2xl">
-                    <div className="bg-primary flex flex-col justify-between text-gray-300 p-9 py-[6vh] rounded-xl lg:rounded-r-none rounded-l-xl relative overflow-hidden w-full lg:w-5/12 gap-9">
+                    <div className="bg-primary flex flex-col justify-between text-gray-300 p-9 py-[6vh] rounded-t-xl lg:rounded-r-none lg:rounded-l-xl relative overflow-hidden w-full lg:w-5/12 gap-[10vh] lg:gap-9">
 
                         <div className="flex flex-col gap-1 h-[20%]">
                             <h2 className="text-white text-2xl font-semibold">Contact Information</h2>
