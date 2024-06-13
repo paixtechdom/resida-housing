@@ -43,7 +43,7 @@ export const Discover = () => {
     return(
         <>
             <section className="w-full center flex-col bg-discover bg-center min-h-[50vh] bg-cover text-center gap-4">
-                <h2 className="text-4xl md:text-5xl font-bold text-white leading-[1.2px] w-11/12 md:w-9/12 lg:w-5/12">
+                <h2 className="text-4xl md:text-5xl font-bold text-white leading-relaxed w-11/12 md:w-9/12 lg:w-5/12">
                     Discover a place you'll love to live
                 </h2>
                 <Button className="rounded-bl-xl bg-secondary w-fit flex items-center py-3"
