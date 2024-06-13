@@ -76,7 +76,7 @@ export const AfterHero : React.FC =  () => {
             </section>
 
             <section className="w-full center bg-primary py-[8vh]">
-                <div className="w-11/12 lg:w-10/12 flex flex-col rounded-2xl p-6 lg:p-12 text-white gap-4 lg:gap-0">
+                <div className="w-11/12 lg:w-10/12 flex flex-col rounded-2xl p-6 lg:p-12 text-white gap-4">
                     <div className="flex flex-col gap-2">
 
                         <h2 className="font-bold text-2xl tracking-wide">Resida nullifies the hassles of agents </h2>

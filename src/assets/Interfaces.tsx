@@ -47,6 +47,9 @@ export interface ContactInfoInterface {
 export interface InputFieldInterface {
     label: string,
     type: string,
-    className?: ""
-    handleChange: Function
+    name: string,
+    className?: string
+    handleChange: Function,
+    value: string,
+    placeholder?: string
 }
