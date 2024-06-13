@@ -51,7 +51,7 @@ export const Footer = () => {
     return(
         <footer className="w-full center bg-primary py-[15vh]">
             <div className="w-11/12 lg:w-10/12 flex flex-col gap-6 text-gray-200">
-                <div className="grid md:grid-cols-3 lg:grid-cols-6 gap-9">
+                <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-9">
                     <div className="flex flex-col gap-4 col-span-2">
                         <h2 className="text-3xl text-gray-100">Resida</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam.</p>
@@ -86,7 +86,7 @@ export const Footer = () => {
                     }
                 </div>
 
-                <div className="flex flex-wrap gap-4 items-center">
+                <div className="flex flex-wrap gap-4 items-center my-3 lg:my-0">
                     {
                         ContactInfo.map((info: { icon : JSX.Element, contact: string}, i) => (
                             <div key={i} className="flex items-center gap-2">
@@ -99,9 +99,9 @@ export const Footer = () => {
                 </div>
 
                 <div className="justify-between items-center flex flex-col lg:flex-row">
-                    <p>Copyright © 2022 BRIX Templates</p>
+                    <p className="w-full lg:w-fit">Copyright © 2022 BRIX Templates</p>
 
-                    <p>All Rights Reserved | <span className="underline">Terms and Conditions</span> | <span className="underline">Privacy Policy</span> </p>
+                    <p className="w-full lg:w-fit">All Rights Reserved | <span className="underline">Terms and Conditions</span> | <span className="underline">Privacy Policy</span> </p>
                 </div>
             </div>
         </footer>
