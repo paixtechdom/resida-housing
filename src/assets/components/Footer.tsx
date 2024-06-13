@@ -1,7 +1,7 @@
 import { BsGeoAlt, BsTelephone, BsYoutube } from "react-icons/bs"
 import { FaFacebookF, FaXTwitter } from "react-icons/fa6"
 import { Link } from "react-router-dom"
-import { FooterLinksInterface } from "../Interfaces"
+import { ContactInfoInterface, FooterLinksInterface } from "../Interfaces"
 import { BiEnvelope } from "react-icons/bi"
 import { RiInstagramFill, RiLinkedinFill } from "react-icons/ri"
 
@@ -89,7 +89,7 @@ export const Footer = () => {
 
                 <div className="flex flex-col flex-wrap md:flex-row gap-3 lg:items-center my-3 lg:my-0">
                     {
-                        ContactInfo.map((info: { icon : JSX.Element, contact: string}, i) => (
+                        ContactInfo.map((info: ContactInfoInterface, i) => (
                             <div key={i} className="flex items-center gap-2">
                                 {info.icon}
 

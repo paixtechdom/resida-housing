@@ -38,3 +38,15 @@ export interface FooterLinksInterface {
     header: string,
     links: string[]
 }
+export interface ContactInfoInterface {
+    icon: JSX.Element,
+    contact: string
+}
+
+
+export interface InputFieldInterface {
+    label: string,
+    type: string,
+    className?: ""
+    handleChange: Function
+}
