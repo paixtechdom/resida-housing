@@ -9,13 +9,14 @@ import { Footer } from './assets/components/Footer';
 
 const HomePage = lazy(() => delayLoad(import("./pages/home/page")))
 const ContactPage = lazy(() => delayLoad(import("./pages/contact/page")))
+import logo from "./assets/images/Logo green.png"
 
 
 export const AppRouter = () => {  
     return (
         <HelmetProvider>
             <Router>
-                <Suspense fallback={<>Loading</>}>
+                <Suspense fallback={<FallbackComponent />}>
                     <Navbar />
                     <Routes>
                         <Route path="/" element={<HomePage />}/>
@@ -28,3 +29,15 @@ export const AppRouter = () => {
         </HelmetProvider>
     );
   };
+
+
+  const FallbackComponent = () => {
+    return(
+        <section className='center flex-col gap-2 text-center h-screen w-full'>
+            <img src={logo} alt="Resida Housing Academy Logo" className='animate-bounce w-fit'/>
+            <strong className='font-bold text-primary'>
+                Resida - Housing Academy
+            </strong>
+        </section>
+    )
+  }
